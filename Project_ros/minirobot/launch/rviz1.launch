@@ -1,5 +1,5 @@
 <launch>
-  <param name="robot_description" textfile="$(find robot_urdf)/urdf/urdfAtibuy.urdf"/>
+  <param name="robot_description" textfile="$(find robot_urdf)/urdf/urdf1.urdf"/>
   <arg name="rvizconfig" default="$(find urdf_tutorial)/rviz/urdf.rviz" />
 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
